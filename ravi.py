@@ -7,7 +7,7 @@ CHANNELS = 1
 RATE = 44100
 
 HOST = '192.168.31.181'  # PC ka Wi-Fi IP
-PORT = 9998  # Audio port same as server
+PORT = 9999  # Audio port same as server
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 client_socket.connect((HOST, PORT))
