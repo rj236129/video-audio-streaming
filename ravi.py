@@ -6,7 +6,7 @@ FORMAT = pyaudio.paInt16
 CHANNELS = 1
 RATE = 44100
 
-HOST = 'PC_IP_ADDRESS'  # PC ka Wi-Fi IP
+HOST = '192.168.31.181'  # PC ka Wi-Fi IP
 PORT = 9998  # Audio port same as server
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
