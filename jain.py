@@ -3,7 +3,7 @@ import socket
 import pickle
 import struct
 
-HOST = '192.168.31.73'  # PC ka Wi-Fi IP
+HOST = '192.168.31.181'  # PC ka Wi-Fi IP
 PORT = 9999  # Video port same as server
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
